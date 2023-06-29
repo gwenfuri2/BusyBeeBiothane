@@ -1,1 +1,79 @@
+html{
+  background-color: lightblue;    
+}
 
+*{
+  box-sizing: border-box;
+  font-family: Arial;
+  color: #777
+}
+
+body {
+  margin: 0px 8px;
+}
+
+/*-------------------------------------------------------------nav tops------------------------------------------*/
+    .bg-img {
+        /* The image used */
+        background-image: url("https://github.com/gwenfuri2/KolaK9/blob/main/greynavprint.png?raw=true");
+      
+        min-height: 80px;
+      
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        /* Needed to position the navbar */
+        position: relative;
+      }
+      
+      /* Position the navbar container inside the image */
+      .container {
+        width: auto;
+        text-align: center;
+      }
+      
+      /* The navbar */
+      .topnav {
+        overflow: hidden;
+        background-color: none;
+        text-align: center;
+     
+      }
+      
+      /* Navbar links */
+      .topnav a {
+        float: right;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 8px;
+        text-decoration: none; /* removed nav pages underlines*/
+        font-size: 27px;
+      }
+      
+      .topnav a:hover {
+        background-color: #00FFFF;
+        color: black;
+      }
+      .main-nav{
+        text-align: center;
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        display: inline-block;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        padding: 8px;
+        background-color: #4d4d4d;
+      }
