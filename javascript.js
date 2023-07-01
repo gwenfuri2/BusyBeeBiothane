@@ -3,7 +3,7 @@
 // Function to change the text color of the "Busy Bee Biothane" paragraph
 function changeTextColor() {
     const paragraph = document.querySelector('.overlay p');
-    paragraph.style.color = 'Black';
+    paragraph.style.color = 'White';
   }
   
   // Function to display an alert with a cute message
