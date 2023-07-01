@@ -55,6 +55,11 @@ p {
     font-size: 16px;
 }
 
+p1 {
+   font-size: 10px;
+  
+}
+
 /* Footer Styles */
 
 footer {
@@ -68,7 +73,7 @@ footer {
 .bg-img {
     position: relative;
     background-image: url('https://github.com/gwenfuri2/BusyBeeBiothane/blob/main/leash.jpg?raw=true');
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: contain;
     background-position: center;
     height: 400px; /* Adjust the height to your preference */
@@ -85,6 +90,7 @@ footer {
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity and color as desired */
     color: white;
-    font-size: 48px;
+    font-size: 150px;
     text-transform: uppercase;
+    font-family: Luminari, fantasy;
 }
