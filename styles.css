@@ -7,7 +7,7 @@ body {
 /* Header Styles */
 
 header {
-    padding: 20px;
+    padding: 10px;
 }
 
 nav {
@@ -63,7 +63,7 @@ p1 {
 /* Footer Styles */
 
 footer {
-    background-color: #f9f9f9;
+    background-color: #fdf4dc
     padding: 20px;
     text-align: center;
 }
