@@ -8,7 +8,7 @@ function changeTextColor() {
   
   // Function to display an alert with a cute message
   function showAlert() {
-    alert("You're as cute as a bee!");
+    alert("Tell your dog that we said Hi!!");
   }
   
   // Event listener to trigger the changeTextColor() function on page load
