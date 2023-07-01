@@ -133,7 +133,34 @@ footer {
 @media only screen and (max-width: 600px) {
     /* Adjust styles for mobile devices */
     .banner {
-        height: 100px;
+        height: 25px;
     }
 
     .banner img {
+        opacity: 1;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    p.questions {
+        font-size: 16px;
+    }
+
+    .bg-img {
+        height: 300px;
+    }
+
+    .overlay {
+        font-size: 30px;
+    }
+}
