@@ -12,7 +12,10 @@ body {
 /* Header styles */
 header {
   background-color: #B5B590;
-  padding: 20px;
+  padding: 10px;
+  position: fixed;  /* Add fixed positioning */
+  width: 100%;  /* Take full width */
+  top: 0;  /* Stick to the top */
 }
 
 /* Navigation styles */
