@@ -1,88 +1,70 @@
-html{
-   background-color: rgb(241, 241, 236)   /*off white background*/
-}
-                  
+/* styles.css */
 
-
-*{ /* Selects all elements in the document and applies the following styles to them */
-  box-sizing: border-box;
-  font-family: Arial;
-  color: #777
-  border: 50px solid #F1F1EC;
-}
-
+/* Body styles */
 body {
-  margin: 0px 8px;
+  background-color: #F2F2EB;
+  color: #333333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-/*-------------------------------------------------------------nav tops------------------------------------------*/
-banner {
-  width: 80px;
-  height: 80px;
-  color: rgb(229, 241, 237)
-  }
-    .bg-img { 
-        /* The image used */
-        background-image: url("https://github.com/gwenfuri2/BusyBeeBiothane/blob/main/busy bee.JPG?raw=true"); background-size: cover;
-        
-      
-        min-height: cover;
-      
-        /* Center and scale the image nicely */
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        
-        /* Needed to position the navbar */
-        position: relative;
-      }
-      
-      /* Position the navbar container inside the image */
-      .container {
-        width: auto;
-        text-align: center;
-      }
-      
-      /* The navbar */
-      .topnav {
-        overflow: hidden;
-        background-color: none;
-        text-align: center;
-     
-      }
-      
-      /* Navbar links */
-      .topnav a {
-        float: right;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 8px;
-        text-decoration: none; /* removed nav pages underlines*/
-        font-size: 27px;
-      }
-      
-      .topnav a:hover {
-        background-color: rgb(189, 188, 112);
-        color: black;
-      }
-      .main-nav{
-        text-align: center;
-      }
+/* Header styles */
+header {
+  background-color: #B5B590;
+  padding: 20px;
+}
 
-      ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        display: inline;
-      }
-      
-      li {
-        float: left;
-      }
-      
-      li a {
-        display: block;
-        padding: 8px;
-        background-color: rgb(208, 210, 193)
-      }
+/* Navigation styles */
+nav {
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+/* Section styles */
+section {
+  padding: 20px;
+}
+
+section h2 {
+  color: #3D3D29;
+}
+
+section p {
+  color: #666666;
+}
+
+section img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Footer styles */
+footer {
+  background-color: #B5B590;
+  padding: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+footer h3 {
+  margin: 0;
+}
