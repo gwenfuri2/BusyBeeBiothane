@@ -27,7 +27,7 @@ header {
 }
 
 nav {
-    background-color: black;
+    background-color: rgb(109,113,46);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,7 +78,7 @@ p1 {
 /* Footer Styles */
 
 footer {
-    background-color: rgb(208, 210, 193);
+    background-color: rgb(109,113,46);
     padding: 20px;
     text-align: center;
 }
