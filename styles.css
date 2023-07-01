@@ -15,9 +15,11 @@
 }
 
 body {
+    background-color: rgba(128, 128, 0, 0.2); /* Olive color with 20% opacity */
     margin: 50px;
     padding: 50px;
     font-family: Arial, sans-serif;
+    
 }
 
 /* Header Styles */
@@ -88,6 +90,11 @@ h1 {
     text-align: center;
 }
 
+h2{
+    font-size: 20px;
+    text-align:left;
+}
+
 p {
     font-size: 36px;
 }
@@ -95,6 +102,9 @@ p {
 p1 {
    font-size: 10px;
   
+}
+p.questions {
+    font-size: 15px;
 }
 
 /* Footer Styles */
