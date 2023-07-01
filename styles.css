@@ -27,30 +27,29 @@ header {
 }
 
 nav {
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
-
-
-}
-
-ul {
+  }
+  
+  ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
     gap: 20px;
-}
-
-li {
+  }
+  
+  li {
     display: inline-block;
-}
-
-a {
+  }
+  
+  a {
     text-decoration: none;
-    color: black;
-}
-
+    color: white;
+  }
+  
 
 /* Section Styles */
 
