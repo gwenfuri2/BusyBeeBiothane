@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Check out my Instagram</title>
+</head>
+<body>
+
+    <div id="instagram-widget"></div>
+
+    <!-- Instagram Widget Script -->
+    <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+    <script>
+        // Replace 'your-instagram-username' with your actual Instagram username
+        var widget = new LightWidget.Widget({
+            "widgetType": "grid",
+            "widgetId": "busybeebiothane",
+            "rows": 4,
+            "cols": 4,
+            "showCaptions": true,
+            "showLikes": false,
+            "showLink": false,
+            "scrollbar": "false"
+        });
+        widget.activate();
+    </script>
+</body>
+</html>
