@@ -1,4 +1,4 @@
-
+/* Banner Styles */
 .banner {
     position: relative;
     background-image: url('https://github.com/gwenfuri2/BusyBeeBiothane/blob/main/busy%20bee.JPG?raw=true');
@@ -9,52 +9,51 @@
 }
 
 .banner img {
-    width: flex;
-    height: 10%;
+    width: 100%;
+    height: auto;
     opacity: 0.5; /* Adjust the opacity as desired */
 }
 
+/* Body Styles */
 body {
     background-color: rgba(128, 128, 0, 0.2); /* Olive color with 20% opacity */
-    margin: 50px;
-    padding: 50px;
+    margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
-    
 }
 
 /* Header Styles */
-
 header {
     padding: 5px;
 }
 
 nav {
-    background-color: rgb(109,113,46);
+    background-color: rgb(109, 113, 46);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 50px;
-  }
-  
-  ul {
+}
+
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
     gap: 20px;
-  }
-  
-  li {
+}
+
+li {
     display: inline-block;
     position: relative;
-  }
-  
-  a {
+}
+
+a {
     text-decoration: none;
     color: white;
-  }
-  
-  a:before {
+}
+
+a:before {
     content: "";
     position: absolute;
     top: 50%;
@@ -66,62 +65,50 @@ nav {
     background-color: white;
     opacity: 0;
     transition: all 0.3s ease;
-  }
-  
-  li:hover a:before {
+}
+
+li:hover a:before {
     width: 120%;
     height: 120%;
     opacity: 0.3;
-  }
-  
-/* Section Styles */
+}
 
+/* Section Styles */
 section {
     padding: 20px;
 }
-.align-center{
-            text-align: center;
-            color: black;
-            font-weight: 400;
-        }
 
 h1 {
-    font-size: 15px;
+    font-size: 24px;
     text-align: center;
 }
 
-h2{
+h2 {
     font-size: 20px;
-    text-align:left;
+    text-align: left;
 }
 
 p {
-    font-size: 36px;
+    font-size: 18px;
 }
 
-p1 {
-   font-size: 10px;
-  
-}
 p.questions {
     font-size: 15px;
 }
 
 /* Footer Styles */
-
 footer {
-    background-color: rgb(109,113,46);
+    background-color: rgb(109, 113, 46);
     padding: 1px;
     text-align: center;
 }
 
 /* Background Image and Overlay Styles */
-
 .bg-img {
     position: relative;
     background-image: url('https://github.com/gwenfuri2/BusyBeeBiothane/blob/main/leash.jpg?raw=true');
     background-repeat: repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     height: 400px; /* Adjust the height to your preference */
 }
@@ -137,7 +124,16 @@ footer {
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity and color as desired */
     color: white;
-    font-size: 150px;
+    font-size: 36px;
     text-transform: uppercase;
     font-family: Luminari, fantasy;
 }
+
+/* Responsive Styles */
+@media only screen and (max-width: 600px) {
+    /* Adjust styles for mobile devices */
+    .banner {
+        height: 100px;
+    }
+
+    .banner img {
