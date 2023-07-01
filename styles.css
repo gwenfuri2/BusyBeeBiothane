@@ -1,6 +1,8 @@
 html{
    background-color: rgb(241, 241, 236)   /*off white background*/
 }
+                  
+
 
 *{ /* Selects all elements in the document and applies the following styles to them */
   box-sizing: border-box;
@@ -14,6 +16,11 @@ body {
 }
 
 /*-------------------------------------------------------------nav tops------------------------------------------*/
+banner {
+  width: 80px;
+  height: 80px;
+  color: rgb(229, 241, 237)
+  }
     .bg-img { 
         /* The image used */
         background-image: url("https://github.com/gwenfuri2/BusyBeeBiothane/blob/main/busy bee.JPG?raw=true"); background-size: cover;
@@ -55,7 +62,7 @@ body {
       }
       
       .topnav a:hover {
-        background-color: #00FFFF;
+        background-color: rgb(189, 188, 112);
         color: black;
       }
       .main-nav{
@@ -67,7 +74,7 @@ body {
         margin: 0;
         padding: 0;
         overflow: hidden;
-        display: inline-block;
+        display: inline;
       }
       
       li {
@@ -77,5 +84,5 @@ body {
       li a {
         display: block;
         padding: 8px;
-        background-color: #4d4d4d;
+        background-color: rgb(208, 210, 193)
       }
