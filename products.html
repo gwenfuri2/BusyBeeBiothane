@@ -25,6 +25,20 @@
         <script async src="//www.instagram.com/embed.js"></script>
     </div>
 
+    <div class="widget">
+        <h3>Love Your Dog?</h3>
+        <p>Are you a dog lover? Click the button below to show your love for dogs!</p>
+        <button onclick="showLove()">Show Love!</button>
+        <p id="loveMessage" style="display: none;"><strong>We love dogs too!</strong> Dogs are loyal, playful, and adorable companions. They bring joy and happiness to our lives.</p>
+    </div>
+
+    <script>
+        function showLove() {
+            var loveMessage = document.getElementById("loveMessage");
+            loveMessage.style.display = "block";
+        }
+    </script>
+
     <footer>
         <h3>Busy Bee Biothane</h3>
         &copy; 2023 BusyBeeBiothane. All rights reserved.
