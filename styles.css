@@ -187,3 +187,17 @@ footer {
         font-size: 30px;
     }
 }
+
+.aboutUsSection {
+    background-image: url('https://github.com/gwenfuri2/BusyBeeBiothane/blob/main/dogloki.jpg?raw=true');
+    background-size: center;
+    background-position: center;
+    padding: 50px;
+}
+
+.aboutUsText {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    text-align: center;
+    
+}
